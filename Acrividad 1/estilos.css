@@ -1,0 +1,15 @@
+*{
+    text-align: center;
+}
+
+body div {
+    border: 1px solid red;
+    background-color: antiquewhite;
+    display: inline-block;
+    text-align: center;
+    align-items: center;  
+    width: 200px;
+    height: 200px;
+
+
+}
