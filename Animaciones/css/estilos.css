@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 150px;
+}
+body>div {
+    display: flex;
+}
+
+body>div>div {
+    width: 33%;
+}
+
+/* transform:
+translate()
+rotate()
+scaleX()
+scaleY()
+scale()
+skewX()
+skewY()
+skew()
+matrix() */
+
+.rotacion .primera {
+    transform: rotate(25deg)
+}
+
+.rotacion .segunda {
+    transform: scale(-25deg);
+}
+
+.rotacion .tercera {
+    transform: rotate(180deg);
+}
+
+.escala .primera {
+    transform: scale(2,0,8);
+}
+
+.escala .segunda {
+    transform: scaleX(1.5);
+}
+
+.escala .tercera {
+    transform: scaleY(0.5);
+
+}
+
+.deformar .primera {
+    transform:skewX(20deg)
+}
+
+.deformar .segunda {
+    transform: skewY(50deg);
+
+}
+
+.deformar .tercera {
+    transform: skew(20deg, 50deg);
+
+}
+
+.origen .primera {
+    transform: skew(20deg, 50deg);
+
+}
+
+.origen .segunda {
+    transform: skew(20deg, 50deg);
+
+}
+
+.origen .tercera {
+    transform: skew(20deg, 50deg);
+
+}

@@ -1,0 +1,170 @@
+/* Propiedades comunes */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: sans-serif;
+    font-size: 10px;
+}
+div.ficha {
+    border: black 1px solid;
+    margin: 10px;
+}
+article p {
+    margin: 0;
+    padding: 5px;
+}
+p.p1 {
+    text-align: center;
+}
+p.p2 {
+    padding: 5px 0;
+    background-color: lightgray;
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+}
+
+p.p3 {
+    text-align: justify;
+}
+i.material-icons {
+    font-size: 70px;
+}
+
+/*Actividad 1*/
+.a11 {
+    display: flex;
+}
+
+.a11 .p3, .a12 .p3, .a13 .p3{
+    border: 1px solid black;
+    margin: 10px;
+    width: 200px;
+}
+
+.a12 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.a13 {
+    display: flex;
+    align-items: center;
+}
+
+/*Actividad 2*/
+
+.a21 {
+    display: flex;    
+}
+
+div.ficha {
+    width: 200px;
+}
+
+.a22 {
+    display: flex; 
+    align-items: center;
+}
+
+.a23 {
+    display: flex;
+}
+
+.a23 .ficha {
+    display: flex;
+    width: 250px;
+}
+
+.a24 {
+    display: flex;
+    align-items: center;
+}
+
+.a24 .ficha {
+    display: flex;
+    width: 250px;
+}
+
+.a24 .p3 {
+    background-color: lightgray;
+    border-left: 1px solid black;
+}
+
+.a25 {
+    display: flex;
+}
+
+.a25 .ficha {
+    display: flex;
+    width: 250px;
+    background-color: lightgray;
+}
+
+.a25 .p1 {
+    border-right: 1px solid black;
+    background-color: white;
+
+}
+
+.a25 .p2 {
+    align-self: center;
+    flex-basis: 100%;
+}
+
+/* Actividad 3 */
+
+.a31 {
+    display: flex;
+}
+
+.a32 {
+    display: flex;
+}
+
+.a32 .ficha {
+    display: flex;
+    width: 250px;
+}
+
+.a32 .ficha .parte {
+    border-left: 1px solid black;
+}
+
+.a32 .ficha .p1 {
+    align-self: center;
+}
+
+.a32 .ficha .p2 {
+    border-bottom: 1px solid black;
+}
+
+.a33 {
+    display: flex;
+}
+
+.a33 .ficha {
+    display: flex;
+    flex-direction: column;
+    width: 250;
+}
+
+.a33 .ficha .parte {
+    display: flex;
+    background-color: lightgrey;
+}
+
+.a33 .ficha .parte .p2 {
+    align-self: center;
+}
+
+.a33 .ficha .parte .p1 {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top-right-radius: 10px;
+}
+
